@@ -5,8 +5,8 @@ body {
 }
 
 figure {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 li {
@@ -52,6 +52,7 @@ figure.hands {
     font-family: GOST;
     src: url("GOST.TTF");
 }
+
 
 .logo-text {
     possition: relative;
@@ -100,7 +101,7 @@ nav > #menu {
 
 #menu li a {
     display: block;
-    width: 100px;
+    width: auto;
     height: 20px;
     color: #7F7F7F;
     text-decoration: none;
@@ -121,30 +122,8 @@ nav > #menu {
     position: relative;
 }
 
-#menu li ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100px;
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 20px;
-}
-
-#menu li ul li {
-    float: none;
-    height: 20px;
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    text-align: center;
-    background: #ffffff;
-
-}
-
 #menu > li:nth-child(2) {
-    width: 120px;
+    width: 121px;
     text-align: center;
     margin: 0 -7px 0 0;
     padding: 0;
@@ -199,35 +178,59 @@ nav > #menu {
     margin: 0;
     padding: 0;
 }
+#menu li ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 -2px 0 1px;
+    width: 118px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    height: 25px;
+}
+
+#menu li ul li {
+    float: none;
+    height: 25px;
+    margin: 0 -1px 0 0;
+    padding: 0;
+    width:120px;
+    text-align: center;
+    background: #AFCA04;
+
+}
 
 #menu li ul li > a {
     border-left: none;
-    /*color: #7F7F7F !important;*/
     background: #AFCA04;
-    margin: 0;
+    margin:  0 -1px 0 1px;
     padding: 0;
     z-index: 100;
+    height: 22px;
+    width: 120px;
 }
 
 #menu li:hover ul, #menu li.jshover ul {
     display: block;
     background: #AFCA04;
     z-index: 100;
-
 }
 
 #menu ul li > a:hover {
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
-    margin-right: -1px;
-    margin-left: -1px;
+    margin: 0 auto;
     z-index: 100;
     color: #ffffff;
+    width: 100px;
+    text-align: center;
 }
 
 #menu li:hover, #menu li.jshover {
     background: #AFCA04;
     z-index: 100;
+    text-align: center;
 }
 
 .page {
