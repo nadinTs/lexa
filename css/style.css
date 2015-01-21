@@ -241,12 +241,10 @@ nav > #menu {
 }
 
 /*main*/
-section .slider-inner{
 
-
-}
 #slider img{
     position: absolute;
+    margin-top: 10px;
 }
 #slider{
     width: 1024px;
