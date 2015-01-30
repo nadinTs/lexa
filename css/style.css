@@ -81,6 +81,11 @@ figure.barcod {
 }
 
 /* top menu*/
+#menu>.active a{
+    background: #AFCA04;
+    color: #ffffff;
+}
+
 #menu li:hover ul, #menu li ul {
     display: block;
 }
@@ -243,7 +248,7 @@ nav > #menu {
     padding: 3px 10px;
 }
 
-/*main*/
+/*main index*/
 
 #slider img{
     position: absolute;
@@ -255,13 +260,50 @@ nav > #menu {
     overflow: hidden;
     position: relative;
 }
-
-
+/*main about*/
+.lexa{
+    display: block;
+    width: 1024px;
+    min-height: 300px;
+ }
+.lexa:after{
+    clear: both;
+    display: table;
+}
+.lexa-about{
+    float: left;
+}
+.lexa-about> figure{
+    position: relative;
+    width: 200px;
+    margin: 20px auto;
+}
+.lexa-about img{
+    display: block;
+    max-width: 100%;
+}
+.lexa-about figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 166px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+.lexa-info{
+    float: right;
+    width: 800px;
+    top: 0;
+    left: 100px;
+}
 /*bottom menu*/
 .bottom-menu {
+    position: relative;
     text-align: center;
     padding: 0;
     margin-top: 10px;
+    width: 1024px;
 
 }
 
@@ -287,7 +329,6 @@ nav > #menu {
 .bottom-menu > li:last-child {
     border-right: 1px solid #818180;
 }
-
 /*footer*/
 .page-footer {
 
