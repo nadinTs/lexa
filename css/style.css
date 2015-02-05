@@ -304,6 +304,9 @@ article{
 .lexa-info ul>li{
     list-style: disc;
 }
+.revealer{
+    cursor: pointer;
+}
 /*bottom menu*/
 .bottom-menu-box{
     display: block;
