@@ -303,6 +303,7 @@ article{
     display: block;
     position: relative;
     width: 1024px;
+    clear: both;
 }
 .bottom-menu {
     position: relative;
