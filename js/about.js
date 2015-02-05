@@ -1,10 +1,3 @@
-
-$('#slider').cycle({
-    fx: 'scrollRight',
-    next: '#slider'
-
-});
-
 $(function(){
     $('.spoiler').hide();
     $('<span class="revealer">Подробнее...</span>').insertBefore('.spoiler');
@@ -13,5 +6,4 @@ $(function(){
         $(this).next().fadeIn();
     });
 });
-
 
