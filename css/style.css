@@ -269,21 +269,23 @@ article{
  }
 .lexa:after{
     clear: both;
-    display: table;
 }
-.lexa-about{
+.julia{
+    clear: both;
+}
+.about{
     float: left;
 }
-.lexa-about> figure{
+.about> figure{
     position: relative;
     width: 200px;
     margin: 20px auto;
 }
-.lexa-about img{
+.about img{
     display: block;
     max-width: 100%;
 }
-.lexa-about figcaption{
+.about figcaption{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -292,17 +294,17 @@ article{
     background: rgba(255, 255, 255, 0.8);
     text-align: center;
 }
-.lexa-info{
+.info{
     float: right;
     width: 800px;
     top: 0;
     left: 100px;
 
 }
-.lexa-info>h1{
+.info>h1{
     color:#AFCA04;
 }
-.lexa-info ul>li{
+.info ul>li{
     list-style: disc;
     line-height: 140%;
 }
