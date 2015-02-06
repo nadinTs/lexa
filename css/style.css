@@ -297,12 +297,14 @@ article{
     width: 800px;
     top: 0;
     left: 100px;
+
 }
 .lexa-info>h1{
     color:#AFCA04;
 }
 .lexa-info ul>li{
     list-style: disc;
+    line-height: 140%;
 }
 .revealer{
     cursor: pointer;
