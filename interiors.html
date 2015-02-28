@@ -5,9 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>Designer</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.pikachoose.min.js"></script>
+    <script type="text/javascript" src="js/jquery.touchwipe.min.js"></script>
+    <script language="JavaScript">
+        $(document).ready(
+                function(){
+                    $("#pikame").PikaChoose({
+                        carousel: true,
+                        text: {previous:"" , next: ""},
+                        carouselOptions:{
+                             wrap:'circular'
+                        }
+                    });
+                });
+    </script>
+    <!--<script type="text/javascript" src="js/main.js"></script>-->
 
     <!--[if lt IE 9}>
     <script src="http://html5shiv.googlecod.com/svn/trunk/html5.js"></script>
@@ -26,7 +43,7 @@
         <ul id="menu">
 
             <li><a href="about.html">о нас</a></li>
-            <li>
+            <li class="active">
                 <a href="portfolio.html">портфолио</a>
                 <ul>
                     <li><a href="#">интерьеры</a></li>
@@ -44,12 +61,24 @@
     <!--main-->
     <main>
         <section>
-
+            <div class="pikachoose">
+                <ul id="pikame" class="jcarousel-skin-pika">
+                    <li><a href="#"><img src="img/big/srub_View22.jpg" width="1024" height="576"><span>1</span></a></li>
+                    <li><a href="#"><img src="img/big/srub_View23.jpg"><span>2</span></a></li>
+                    <li><a href="#"><img src="img/big/srub_View24.jpg"><span>3</span></a></li>
+                    <li><a href="#"><img src="img/big/srub_View25.jpg"><span>4</span></a></li>
+                    <li><a href="#"><img src="img/big/srub_View26.jpg"><span>5</span></a></li>
+                    <li><a href="#"><img src="img/big/srub_View27.jpg"><span>6</span></a></li>
+                    <li><a href="#"><img src="img/big/srub_View28.jpg"><span>7</span></a></li>
+                    <li><a href="#"><img src="img/big/srub_View29.jpg"><span>8</span></a></li>
+                    <li><a href="#"><img src="img/big/srub_View30.jpg"><span>9</span></a></li>
+                </ul>
+            </div>
         </section>
         <!--bottom menu -->
         <nav>
             <ul class="bottom-menu">
-                <li><a href="#">интерьер</a></li>
+                <li class="active"><a href="#">интерьер</a></li>
                 <li><a href="architecture.html">архитектура</a></li>
                 <li><a href="graphics.html">графика</a></li>
                 <li><a href="landscape.html">ландшафт</a></li>

@@ -326,7 +326,10 @@ article{
     width: 1024px;
 
 }
-
+.bottom-menu>.active a{
+    background: #AFCA04;
+    color: #ffffff;
+}
 .bottom-menu li {
     display: inline-block;
     border-left: 1px solid #818180;
