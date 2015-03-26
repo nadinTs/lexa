@@ -32,7 +32,9 @@ main {
     background: #fff;
     font-family: 'GOST', fantasy, arial, sans-serif;
 }
+.triangle{
 
+}
 /*header*/
 
 header.page-header {
@@ -310,6 +312,28 @@ article{
 }
 .revealer{
     cursor: pointer;
+}
+/*main archive*/
+
+
+
+
+.pagination{
+   width: 650px;
+    padding: 10px;
+    margin: 5px auto;
+    white-space: nowrap;
+}
+.pagination>a,
+.pagination span {
+    display: inline-block;
+    height: 30px;
+    min-width: 20px;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    color: #AFCA04;
 }
 /*bottom menu*/
 .bottom-menu-box{

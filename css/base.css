@@ -4,8 +4,8 @@ a{color:white;}
 .pikachoose {width: 1024px;height: 670px; margin: 0;}
 
 /* Style the thumbnails */
-.pika-thumbs{ padding: 0; height: 75px; }
-	.pika-thumbs li{ width: 144px; height:74px; margin: 10px 0 0 17px; padding-right: 17px; overflow: hidden;
+.pika-thumbs{ padding: 0; height: 81px;}
+	.pika-thumbs li{ width: 144px; height:81px; margin: 10px 0 0 17px; padding-right: 17px; overflow: hidden;
 		float: left; list-style-type: none;padding: 0; margin-right:15px;  cursor: pointer;}
     .pika-thumbs li:first-child{margin-left: 0;}
 	.pika-thumbs li .clip {position:relative;height:100%;text-align: center; vertical-align: middle; overflow: hidden;}
