@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Проект загородного дома"
+date:   2015-01-24 22:18:16
+categories: interior
+images:
+    - city.jpg
+    - pic_200.jpg
+    - ny_200.jpg
+    - ny2_200.jpg
+    - sidney_200.jpg
+    - bridge_200.jpg
+---
+Этот проект воплощает стремление к совершенству.
+
+{% include slider.html %}
+
